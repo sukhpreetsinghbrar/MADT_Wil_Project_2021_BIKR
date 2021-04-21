@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SplashActivity">
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_centerInParent="true"
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bike"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@+id/giff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/krfrostedcake"
+        android:text="Bikr"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_65ssp"
+        android:textStyle="bold"/>
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/giff"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/nurger"/>
+
+
+</RelativeLayout>

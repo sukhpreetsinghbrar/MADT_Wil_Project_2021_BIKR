@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHome"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_below="@+id/tv_srch"
+        android:layout_centerInParent="true"
+        android:id="@+id/gif"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/bike"/>
+    <TextView
+        android:id="@+id/header"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/krfrostedcake"
+        android:text="Seacrh Near By restaurents"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold"/>
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/tv_srch"
+        android:gravity="center"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@drawable/shape_bg"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:layout_below="@+id/et_postal"
+        android:textColor="@color/white"
+
+        android:textSize="@dimen/_12ssp" />
+
+    <EditText
+        android:maxLength="6"
+        android:layout_below="@id/header"
+        android:id="@+id/et_postal"
+        android:textAllCaps="true"
+        android:text=""
+        android:paddingLeft="@dimen/_10sdp"
+        android:layout_width="fill_parent"
+
+        android:layout_height="@dimen/_32sdp"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:textSize="@dimen/_11ssp"
+        android:background="@drawable/white_bg"
+        android:drawablePadding="@dimen/_8sdp"
+        android:hint="Postal code..."
+        android:layout_margin="@dimen/_25sdp"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:visibility="gone"
+        android:layout_below="@+id/tv_srch"
+        android:layout_centerInParent="true"
+        android:id="@+id/gdif"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/pizza"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "17998713556",
+    "project_id": "bikr-adff1",
+    "storage_bucket": "bikr-adff1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17998713556:android:93e9fc0b564138fee52141",
+        "android_client_info": {
+          "package_name": "com.lambton.bikr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17998713556-oenqtq1b9dleo89tq526g1upc7o2an2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lambton.bikr",
+            "certificate_hash": "813b78087e71f2ecf23a53c08beb99e974907c26"
+          }
+        },
+        {
+          "client_id": "17998713556-u594e7g18a7gphktk0q439hk7gdkdg5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmxkZQfsuNDMXQY2qDbNG3SVyG6amHryY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17998713556-u594e7g18a7gphktk0q439hk7gdkdg5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
